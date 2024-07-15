@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Criptografia</title>
+</head>
+<body>
+    <main class="container">
+        <section class="form">
+            <textarea id="texto" placeholder="Digite seu texto..."></textarea>            
+            
+            <section class="form-botoes">
+                <div class="aviso">
+                    <img src="assets/aviso.png" alt="Aviso">
+                    <p>Somente letras minúsculas e sem acentos.</p>
+                </div>
+
+                <div class="botoes">
+                    <button id="criptografar">Criptografar</button> 
+                    <button id="descriptografar">Descriptografar</button> 
+                </div>
+            </section>
+
+            <section class="retangulo">
+                <img class="imagem-procurando" id="imagem-procurando" src="assets/procurando.png" alt="Procurando">
+                
+                <div class="texto-retangulo">    
+                    <h3 id="mensagem-titulo">Nenhuma mensagem encontrada</h3>
+                    <p class="paragrafo" id="paragrafo-titulo">Digite um texto que deseja criptografar ou descriptografar</p>
+                    <output id="output-texto"></output>
+                </div>
+
+                <div id="div-resultado" style="display: none;">
+                    <button id="copiar-texto">Copiar</button>
+                </div>
+            </section>
+
+            <footer class="rodape">Desenvolvido por Dieimisson Oliveira</footer>
+
+        </section>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
