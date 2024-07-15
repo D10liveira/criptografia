@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ Criptografia Simples 📜
 
 Aplicação simples para criptografar e descriptografar mensagens usando substituição de letras.
@@ -40,3 +41,6 @@ Desenvolvido por Dieimisson Oliveira.
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+=======
+# criptografia
+>>>>>>> 0b2c66b7fc5f594765f557b8ecdd7b3e8bc890fb
